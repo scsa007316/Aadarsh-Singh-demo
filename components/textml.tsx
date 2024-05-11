@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import dynamic from 'next/dynamic';
-import particlesConfig from '/app/ML/particlesConfig';
+import particlesConfig from '/app/ML/particlesConfig2';
 //import 'katex/dist/katex.min.css';
 
 
