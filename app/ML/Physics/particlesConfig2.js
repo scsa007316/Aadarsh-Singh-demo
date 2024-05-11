@@ -272,9 +272,9 @@ const particlesConfig =
       },
       "random": true,
       "size": true,
-      "speed": 2,
+      "speed": 1,
       "spin": {
-        "acceleration": 2,
+        "acceleration": 1,
         "enable": true
       },
       "straight": false,
