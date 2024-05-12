@@ -1,7 +1,7 @@
 "use client"
 // pages/ModalPage.tsx
 import React, { useState, useEffect } from 'react';
-import CustomModal from '/components/ModalContent-mob'; // Update the path
+import CustomModal from '/components/ModalContent1-mob'; // Update the path
 import CustomModal2 from '/components/ModalContent2-mob'; // Update the path
 import CustomModal3 from '/components/ModalContent3-mob'; // Update the path
 import CustomModal4 from '/components/ModalContent4-mob'; // Update the path
