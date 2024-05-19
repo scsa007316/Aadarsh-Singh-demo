@@ -94,19 +94,26 @@ const CustomModal: React.FC<CustomModalProps> = ({ isOpen, closeModal }) => {
           The detailed work is discussed in this <a href="your_pdf_link_here" style={{ textDecoration: 'underline' }}>PDF</a>.
         </p>
         <button
-          onClick={closeModal}
-          style={{
-            fontSize: '60px',
-            color: 'white',
-            background: 'none',
-            border: 'none',
-            position: 'absolute',
-            top: '-15px',
-            right: '10px',
-          }}
-        >
-          ☠
-        </button>
+  onClick={closeModal}
+  style={{
+    fontSize: '60px',
+    color: 'white',
+    background: 'none',
+    border: 'none',
+    position: 'absolute',
+    top: '5px',
+    right: '10px',
+  }}
+>
+  <img
+    src="/jolly/roger.png"
+    alt=""
+    style={{
+      width: '60px',
+      height: '50px',
+    }}
+  />
+</button>
       </div>
     </Modal>
   );

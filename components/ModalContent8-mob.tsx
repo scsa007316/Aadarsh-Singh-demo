@@ -89,15 +89,22 @@ const CustomModal8: React.FC<CustomModalProps> = ({ isOpen, closeModal }) => {
   onClick={closeModal}
   style={{
     fontSize: '60px',
-    color: 'none',
+    color: 'white',
     background: 'none',
     border: 'none',
     position: 'absolute',
-    top: '-15px',  // Adjust the top position as needed
-    right: '10px',  // Adjust the right position as needed
+    top: '-10px',
+    right: '5px',
   }}
 >
-☠
+  <img
+    src="/jolly/shanks.png"
+    alt=""
+    style={{
+      width: '70px',
+      height: '80px',
+    }}
+  />
 </button>
 
       </div>

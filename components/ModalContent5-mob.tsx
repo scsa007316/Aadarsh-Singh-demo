@@ -80,15 +80,22 @@ const CustomModal5: React.FC<CustomModalProps> = ({ isOpen, closeModal }) => {
   onClick={closeModal}
   style={{
     fontSize: '60px',
-    color: 'none',
+    color: 'white',
     background: 'none',
     border: 'none',
     position: 'absolute',
-    top: '-15px',  // Adjust the top position as needed
-    right: '10px',  // Adjust the right position as needed
+    top: '5px',
+    right: '0px',
   }}
 >
-☠
+  <img
+    src="/jolly/whitebeard.png"
+    alt=""
+    style={{
+      width: '80px',
+      height: '70px',
+    }}
+  />
 </button>
 
       </div>

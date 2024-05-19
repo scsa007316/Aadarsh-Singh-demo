@@ -93,19 +93,26 @@ const CustomModal2: React.FC<CustomModalProps> = ({ isOpen, closeModal }) => {
 
         {/* Replace "Close Modal" with the cut symbol or any desired text/icon */}
         <button
-          onClick={closeModal}
-          style={{
-            fontSize: '60px',
-            color: 'white',
-            background: 'none',
-            border: 'none',
-            position: 'absolute',
-            top: '-15px',  // Adjust the top position as needed
-            right: '10px',  // Adjust the right position as needed
-          }}
-        >
-          ☠
-        </button>
+  onClick={closeModal}
+  style={{
+    fontSize: '60px',
+    color: 'white',
+    background: 'none',
+    border: 'none',
+    position: 'absolute',
+    top: '5px',
+    right: '10px',
+  }}
+>
+  <img
+    src="/jolly/luffy.png"
+    alt=""
+    style={{
+      width: '60px',
+      height: '50px',
+    }}
+  />
+</button>
       </div>
     </Modal>
   );

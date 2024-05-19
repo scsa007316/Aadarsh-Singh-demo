@@ -20,7 +20,8 @@ const Footermob: React.FC<FooterProps> = ({ style }) => {
       <p className="text-sm">Designed and developed by Aadarsh Singh using LLMs.</p>
       <p className="text-sm">This website is built with <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> and <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a>, open-source projects released under the MIT License.</p>
       <p style={{ fontSize: '0.6rem' }}>Background images for Modals have been created using text-to-image AI such as SDXL turbo, Adobe Firefly, Krea, Runway etc. </p>
-      <div style={{ borderRadius: '10px', border: '2px solid white', padding: '10px',marginTop:'10px' }}>
+      <p style={{ fontSize: '0.6rem' }}>Modal button images have been taken from the one piece anime. Kindly reach for copyright issues.</p>
+ <div style={{ borderRadius: '10px', border: '2px solid white', padding: '10px',marginTop:'10px' }}>
   <p style={{ fontSize: '0.6rem' }}>Refer to desktop site for more features.</p>
 </div>
 

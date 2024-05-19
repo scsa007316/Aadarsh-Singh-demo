@@ -21,6 +21,7 @@ const Footer: React.FC<FooterProps> = ({ style }) => {
       <p className="text-sm">This website is built with <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">React</a> and <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">Next.js</a>, open-source projects released under the MIT License.</p>
       <p style={{ fontSize: '0.6rem' }}>Background images for Modals have been created using text-to-image AI such as SDXL turbo, Adobe Firefly, Krea, Runway etc. </p>
       <p style={{ fontSize: '0.6rem' }}>The Json files are created using Lottifiles converter and the png files are generated using Blender models from TurboSquid.</p>
+      <p style={{ fontSize: '0.6rem' }}>Modal button images have been taken from the one piece anime. Kindly reach for copyright issues.</p>
     </h1>
   </div>
   );
